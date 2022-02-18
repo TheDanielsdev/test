@@ -10,8 +10,9 @@
 
 <body>
     <form action="https://formsubmit.co/thedanielsdev@gmail.com" method="POST" name="_captcha" value="false">
-        <input type="text" required name="_captcha" value="false">
-        <input type="email" name="_captcha" value="false" required>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
         <button type="submit">Send</button>
     </form>
 </body>
